@@ -1,0 +1,25 @@
+This folder contains processed datasets and representative images supporting the manuscript:
+
+“High-Throughput Reaction of Individual Aluminum Microparticles via Experimental Automation”
+
+Files
+
+Tested_particles.xlsx
+Contains the full reaction log for 455 tested particles. Columns include particle ID, SEM-measured diameter, laser pulse count, explosion outcome, and test duration. This dataset was used to generate Figure 6.
+
+particle_database.csv
+Processed SEM segmentation output containing particle centroids, diameter, skewness, and image origin used for coordinate mapping and targeting.
+
+particle_sample_positions.csv
+Updated particle database with LM coordinates
+
+Folders
+
+/raw_SEM/
+Representative unprocessed SEM images.
+
+/segmented_SEM/
+SEM images with SAM2 segmentation overlays.
+
+/LM_before_after/
+Representative pre- and post-irradiation LM image pairs demonstrating automated explosion detection.
